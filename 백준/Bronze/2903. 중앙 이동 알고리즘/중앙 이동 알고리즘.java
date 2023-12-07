@@ -8,5 +8,7 @@ public class Main {
 		br.close();
         
         System.out.println((int)Math.pow(Math.pow(2, n) +1, 2));
+
+	    /* https://devjanghwa.tistory.com/120 */
     }
 }
