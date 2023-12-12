@@ -17,5 +17,7 @@ public class Main{
 		} else {
 			System.out.println(0);
 		}
+
+		/* 여기서 왜... f<=c 조건이 들어가지? */
 	}
 }	
