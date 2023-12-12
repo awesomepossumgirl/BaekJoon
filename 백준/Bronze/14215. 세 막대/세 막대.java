@@ -32,6 +32,7 @@ public class Main {
 		A+B+C=
 		A+B+(A+B−1)=
 		(A+B)×2−1
+		*/
 
 	}
 
