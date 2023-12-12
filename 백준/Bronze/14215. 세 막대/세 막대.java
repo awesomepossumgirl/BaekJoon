@@ -25,6 +25,14 @@ public class Main {
 		if(a+b+c-maxN>maxN) System.out.println(a+b+c);
 		else System.out.println((a + b + c - maxN) * 2 - 1);
 		br.close();
+
+		/*
+  		C는 결국 A+B보다 작아야하되, 둘레는 최대여야하므로, C의 길이를 최소한으로 줄였을 때의 길이를 찾아야한다.
+		즉, C의 길이를 A+B보다 1작게 만들면 되는 것이다. 그렇게 하면 둘레는 다음과 같이 계산 되겠다
+		A+B+C=
+		A+B+(A+B−1)=
+		(A+B)×2−1
+
 	}
 
 }
