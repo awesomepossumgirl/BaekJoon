@@ -1,19 +1,14 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
 public class Main {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int score = sc.nextInt();
-		
-		if (score>=90) {
-			System.out.println("A");
-		} else if (score>=80) {
-			System.out.println("B");
-		} else if (score>=70) {
-			System.out.println("C");
-		} else if (score>=60) {
-			System.out.println("D");
-		} else {
-			System.out.println("F");
-		}
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+ 		int A = Integer.parseInt(br.readLine());
+		if(A>=90) System.out.println("A");
+		else if(A>=80) System.out.println("B");
+		else if (A>=70) System.out.println("C");
+		else if(A>=60) System.out.println("D");
+		else System.out.println("F");
 	}
 }
