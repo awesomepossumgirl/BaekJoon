@@ -1,22 +1,25 @@
-import java.util.Scanner;
- 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
 public class Main {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int hour = sc.nextInt(); 
-		int min = sc.nextInt();
-		sc.close();
+	public static void main(String[] args) throws IOException  {
+	
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		if(min < 45) {
-			hour--;		// 시(hour) 1 감소
-			min= 60 - (45 - min); 	// 분(min) 감소
-			if(hour < 0) {
-				hour = 23;
-			}
-			System.out.println(hour + " " + min);
+		String str = br.readLine();
+		StringTokenizer st = new StringTokenizer(str," ");
+		int hour = Integer.parseInt(st.nextToken());
+		int min = Integer.parseInt(st.nextToken());
+		
+		if(min<45) {
+			hour--;
+			min = 60-(45-min);
+			if(hour<0) hour=23;
+		} else {
+			min=min-45;
 		}
-		else {
-			System.out.println(hour + " " + (min - 45));
-		}
+		System.out.println(hour+" "+min);
 	}
 }
