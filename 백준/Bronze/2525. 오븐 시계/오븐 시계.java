@@ -1,22 +1,26 @@
-
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class Main {
-
-	public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
-
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		int c = sc.nextInt();
-
-		int am = a * 60;
-
-		if ((am + b + c) / 60 >= 24)
-			System.out.printf("%d %d", (am + b + c) / 60 - 24, (am + b + c) % 60);
-		else
-			System.out.printf("%d %d", (am + b + c) / 60, (am + b + c) % 60);
+	public static void main(String[] args) throws IOException  {
+	
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		String str = br.readLine();
+		StringTokenizer st = new StringTokenizer(str," ");
+		int a = Integer.parseInt(st.nextToken());
+		int b = Integer.parseInt(st.nextToken());
+		
+		int c = Integer.parseInt(br.readLine());
+		
+		int min = 60*a+b;
+		min+=c;
+		
+		int h = (min/60)%24;
+		int m = min%60;
+		
+		System.out.println(h+" "+m);
 	}
-
 }
