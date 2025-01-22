@@ -7,10 +7,8 @@ This is an auto-push repository for Baekjoon Online Judge created with [Baekjoon
 
 ---
 
-## 🛠️ 기능 소개
+## 🛠️ 단계별로 풀어보기
 
-- **자동 업데이트**: [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub) 크롬 확장프로그램 백준허브 통해 풀이를 자동으로 업로드하고 있어요.
--   
 ![image](https://github.com/user-attachments/assets/84b087ea-f379-4337-9d77-1f10c7ff3444)
 ![image](https://github.com/user-attachments/assets/809ce634-93b5-4f0f-a748-53d6b2b22351)
  
