@@ -1,5 +1,5 @@
 # BaekJoon  
-This is an auto-push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+- 구글 크롬 익스텐션 백준허브를 통해서 자동 커밋되는 레파지토리입니다. [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
 
 <p>🏆 Baekjoon solved rank 🏆</p>
 	
@@ -7,8 +7,8 @@ This is an auto-push repository for Baekjoon Online Judge created with [Baekjoon
 
 ---
 
-## 🛠️ 단계별로 풀어보기
-
+## 🛠️ 컨텐츠
+- 백준 단계별로 풀어보기 해결중 
 ![image](https://github.com/user-attachments/assets/84b087ea-f379-4337-9d77-1f10c7ff3444)
 ![image](https://github.com/user-attachments/assets/809ce634-93b5-4f0f-a748-53d6b2b22351)
  
