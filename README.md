@@ -19,7 +19,7 @@
 
 ## 📂 Folder Structure
 
-- 📦 By Rank
+- By Rank
 - [Bronze] 🟦
 - [Silver] 🟩
 - [Gold] 🟨
