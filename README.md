@@ -1,8 +1,8 @@
-# BaekJoon  
+# BaekJoon 코딩테스트 문제풀이
 - 구글 크롬 익스텐션 백준허브를 통해서 자동 커밋되는 Repository 입니다!
 - [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
 
-<p>🏆 다인's Baekjoon solved rank 🏆</p>
+<p> 다인's Baekjoon solved rank 🏆</p>
 	
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=awesomepossumgirl1)](https://solved.ac/awesomepossumgirl1)
 
@@ -38,4 +38,11 @@
 💌 개선할 내용이 있다면 언제든 Pull Request나 Issue를 열어주세요.  
 
 ---
+
+## Clone this Repository
+```bash
+git clone https://github.com/your-username/Programmers.git
+```
+
+
 
